@@ -5,6 +5,8 @@ import "./App.css";
 import Disclaimer from "./components/Disclaimer";
 import Features from "./components/Features";
 import Review from "./components/Review";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +18,10 @@ function App() {
       <Disclaimer/>
       <Features/>
       <Review/>
+      <div className="top-section">
+        <CTA/>
+        <Footer/>
+      </div>
     </>
   );
 }

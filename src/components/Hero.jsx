@@ -1,4 +1,6 @@
 import React from "react";
+import Lottie from "lottie-react";
+import Purple from '../assets/Lottie/Purple.json'
 import Trillo from "../assets/Trillosvg.svg";
 
 const Hero = () => {
@@ -19,7 +21,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-btn">
-          <img src={Trillo} />
+          <Lottie animationData={Purple} className="hero-btn-img"/>
           <button>Get Started at $0.00</button>
         </div>
       </div>
