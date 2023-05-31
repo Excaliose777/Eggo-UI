@@ -1,0 +1,239 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0;
+  margin: auto;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 0;
+  margin: auto;
+}
+
+
+.nav {
+  background-color: black;
+  height: 80px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 0px 56px;
+  font-family: 'Poppins Regular';
+  /* position: sticky;
+  top: 0; */
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
+}
+
+.nav-logo img {
+  margin-right: 14px;
+}
+
+.nav-logo h1 {
+  font-family: 'Reggae One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.nav-menu {
+  margin-left: 100px;
+  display: flex;
+}
+
+.nav-menu h4 {
+  margin-left: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn h3 {
+  color: white;
+  cursor: pointer;
+  padding: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  transition: ease-out 0.8s;
+}
+
+/* .nav-btn h3:hover{
+  color: #61C454;
+  background-color: white;
+  cursor: pointer;
+  font-style: normal;
+  padding: 28px;
+  border-radius: 12px;
+} */
+
+.nav-btn button {
+  font-family: 'Poppins Regular';
+  background-color: #61C454;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 6px 25px;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* HERO */
+
+.hero-main {
+  font-family: 'Poppins Regular';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* height: 100vh; */
+}
+
+.hero-main h1 {
+  font-family: 'Poppins Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 90px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  margin-top: 90px;
+}
+
+.hero-main h4 {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-btn img {
+  transform: translate(25px, 15px);
+}
+
+.hero-btn img:hover {
+  transform: translate(26px, -8px);
+  transition: ease-out 0.8s;
+}
+
+.hero-btn button {
+  font-family: "poppins regular";
+  padding: 14px 24px;
+  border: none;
+  background: #61C454;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.disclaimer {
+  /* width: 100%; */
+  background: #E3CFFC;
+  white-space: nowrap;
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+.disclaimer-slide {
+  display: inline-block;
+  animation: scroll 10s infinite linear;
+}
+
+.disclaimer h1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0 40px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.features {
+  height: 100vh;
+  padding: 10px 70px;
+}
+
+.features-header h1 {
+  font-family: 'Poppins Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 60px;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-container2 {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.container {
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  padding: 40px 30px;
+}
+
+.container p {
+  font-family: 'Poppins Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.container img {
+  padding: 11px;
+  background-color: #61C454;
+  border-radius: 100px;
+}
