@@ -1,5 +1,8 @@
 import React from "react";
 import Vector1 from "../assets/Vector.png";
+import Vector2 from "../assets/Vector2.png";
+import Vector3 from "../assets/Vector3.png";
+import Vector4 from "../assets/Vector4.png";
 
 const Features = () => {
   return (
@@ -14,8 +17,8 @@ const Features = () => {
       <div className="features-container">
         <div className="features-container2">
           <div className="container ease-of-use">
-            <img src={Vector1} />
-            <h4>Ease of Use</h4>
+            <img src={Vector1} style={{backgroundColor:'#61C454'}}/>
+            <h4 style={{color:'#61C454'}}>Ease of Use</h4>
             <p>
               Both Eggo and Oxe have user-friendly interfaces, making it easy
               for beginners to get started with their platforms. However, Eggo
@@ -25,10 +28,10 @@ const Features = () => {
               minimal effort.
             </p>
           </div>
-          <div>
+          <div className="pricing_Customer">
             <div className="container pricing">
-              <img src={Vector1} />
-              <h4>Pricing</h4>
+              <img src={Vector2} style={{backgroundColor:'#EE6A5F'}}/>
+              <h4 style={{color:'#EE6A5F'}}>Pricing</h4>
               <p>
                 Eggo and Oxe both offer multiple pricing tiers to meet the needs
                 of businesses of all sizes. However, at Eggo we offer more
@@ -38,8 +41,8 @@ const Features = () => {
               </p>
             </div>
             <div className="container Customer-support">
-              <img src={Vector1} />
-              <h4>Customer Support</h4>
+              <img src={Vector3} style={{backgroundColor:'#53A3ED'}}/>
+              <h4 style={{color:'#53A3ED'}}>Customer Support</h4>
               <p>
                 Eggo has a more responsive and efficient support team which
                 works 24/7 unlike Oxe. In addition, Eggo offers personalized
@@ -50,8 +53,8 @@ const Features = () => {
           </div>
         </div>
         <div className="container Integrations">
-          <img src={Vector1} />
-          <h4>Integrations</h4>
+          <img src={Vector4} style={{backgroundColor:'#F9BB1D'}} />
+          <h4 style={{color:'#F9BB1D'}}>Integrations</h4>
           <p>
             It has become increasingly important for companies to have the
             ability to seamlessly integrate their SaaS solutions with a variety

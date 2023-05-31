@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import "./App.css";
 import Disclaimer from "./components/Disclaimer";
 import Features from "./components/Features";
+import Review from "./components/Review";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </div>
       <Disclaimer/>
       <Features/>
+      <Review/>
     </>
   );
 }

@@ -193,9 +193,11 @@ body {
   }
 }
 
+/* FEATURES */
+
 .features {
-  height: 100vh;
-  padding: 10px 70px;
+  /* height: 100vh; */
+  padding: 100px 90px;
 }
 
 .features-header h1 {
@@ -204,6 +206,7 @@ body {
   font-weight: 700;
   font-size: 64px;
   line-height: 60px;
+  margin-bottom: 60px;
 }
 
 .features-container {
@@ -211,11 +214,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 24px;
 }
 
 .features-container2 {
   display: flex;
-  margin-bottom: 24px;
+  gap: 24px;
+}
+
+.pricing_Customer{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .container {
@@ -224,16 +234,36 @@ body {
   padding: 40px 30px;
 }
 
+.container h4 {
+  font-family: 'Poppins Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .container p {
   font-family: 'Poppins Regular';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 32px;
 }
 
 .container img {
   padding: 11px;
-  background-color: #61C454;
-  border-radius: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: contain;
+}
+
+/* REVIEW */
+
+.review{
+  height: 100vh;
+  background-color: #F5F5F5;
+}
+
+.review-header{
+  text-align: center;
 }
