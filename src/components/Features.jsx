@@ -1,8 +1,8 @@
 import React from "react";
-import Vector1 from "../assets/Vector.png";
-import Vector2 from "../assets/Vector2.png";
-import Vector3 from "../assets/Vector3.png";
-import Vector4 from "../assets/Vector4.png";
+import Ease from "../assets/Features/Ease.png";
+import Pricing from "../assets/Features/Pricing.png";
+import Customer from "../assets/Features/CustomerSupport.png";
+import Integrations from "../assets/Features/Integrations.png";
 
 const Features = () => {
   return (
@@ -17,7 +17,7 @@ const Features = () => {
       <div className="features-container">
         <div className="features-container2">
           <div className="container ease-of-use">
-            <img src={Vector1} style={{backgroundColor:'#61C454'}}/>
+            <img src={Ease}/>
             <h4 style={{color:'#61C454'}}>Ease of Use</h4>
             <p>
               Both Eggo and Oxe have user-friendly interfaces, making it easy
@@ -30,7 +30,7 @@ const Features = () => {
           </div>
           <div className="pricing_Customer">
             <div className="container pricing">
-              <img src={Vector2} style={{backgroundColor:'#EE6A5F'}}/>
+              <img src={Pricing}/>
               <h4 style={{color:'#EE6A5F'}}>Pricing</h4>
               <p>
                 Eggo and Oxe both offer multiple pricing tiers to meet the needs
@@ -41,7 +41,7 @@ const Features = () => {
               </p>
             </div>
             <div className="container Customer-support">
-              <img src={Vector3} style={{backgroundColor:'#53A3ED'}}/>
+              <img src={Customer}/>
               <h4 style={{color:'#53A3ED'}}>Customer Support</h4>
               <p>
                 Eggo has a more responsive and efficient support team which
@@ -53,7 +53,7 @@ const Features = () => {
           </div>
         </div>
         <div className="container Integrations">
-          <img src={Vector4} style={{backgroundColor:'#F9BB1D'}} />
+          <img src={Integrations}/>
           <h4 style={{color:'#F9BB1D'}}>Integrations</h4>
           <p>
             It has become increasingly important for companies to have the

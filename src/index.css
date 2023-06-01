@@ -62,7 +62,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .nav-btn {
@@ -247,12 +247,6 @@ body {
   line-height: 32px;
 }
 
-.container img {
-  padding: 11px;
-  border-radius: 50%;
-  background-size: cover;
-  object-fit: contain;
-}
 
 /* REVIEW */
 
@@ -343,17 +337,17 @@ body {
   margin-bottom: 0;
 }
 
-.cta-main img{
-  margin-top:0;
+.cta-main img {
+  margin-top: 0;
   transform: translateY(-40px);
 }
 
-.cta-main p{
-  margin-top:0;
+.cta-main p {
+  margin-top: 0;
   font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .cta-main button {
@@ -365,9 +359,73 @@ line-height: 28px;
   cursor: pointer;
 }
 
-.cta-lottie{
+.cta-lottie {
   display: flex;
 }
 
 /* FOOTER */
 
+.footer {
+  background-color: #1A1A1A;
+  padding: 1.5rem 0;
+  color: #FFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.footie-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+.footie-logo h3 {
+  font-family: "Reggae One";
+}
+
+.footie-logo img {
+  margin-right: 14px;
+}
+
+.footer-firt-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-firt-grid p {
+  font-family: 'Poppins Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-firt-grid img{
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.footer-link {
+  display: flex;
+  gap: 120px
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer-links h4 {
+  font-family: 'Poppins Regular';
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
