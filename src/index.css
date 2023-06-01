@@ -225,25 +225,46 @@ body {
   gap: 24px;
 }
 
+.Integrations:hover{
+  border: 2px solid #F9BB1D;
+}
+
+.Customer-support:hover{
+  border: 2px solid #53A3ED;
+}
+
+.ease-of-use:hover{
+  border: 2px solid #61C454;
+}
+
+.pricing:hover{
+  border: 2px solid #EE6A5F;
+}
+
 .container {
   background-color: #F5F5F5;
+  border: 2px solid transparent;
   border-radius: 20px;
   padding: 40px 30px;
 }
 
+.container img{
+  margin-bottom:0;
+}
 .container h4 {
   font-family: 'Poppins Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
+  margin-top: 0;
 }
 
 .container p {
   font-family: 'Poppins Regular';
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 32px;
 }
 
