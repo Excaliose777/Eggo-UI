@@ -54,6 +54,7 @@ const Review = () => {
           <img src={Image2}/>
           <button style={{backgroundColor:'#FFEAEF'}}>@saldsgnstudio <img src={Instagram}/></button>
         </div>
+        
       </div>
 
       
