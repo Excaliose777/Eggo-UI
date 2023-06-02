@@ -447,7 +447,16 @@ body {
 }
 
 @media screen and (max-width:700px) {
+  .hero-main h1 {
+    font-size: 80px;
+  }
 
+  .hero-main h4{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+  }
 }
 
 @media screen and (max-width:550px) {
