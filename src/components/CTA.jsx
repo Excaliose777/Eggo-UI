@@ -20,17 +20,16 @@ const CTA = () => {
             With Eggo work can be fun again. Collaborate faster <br /> and more
             efficiently with your team.
           </p>
-          <button
+          <button className="first-cta-btn"
             style={{
               backgroundColor: "#1A1A1A",
               color: "white",
-              marginRight: "16px",
               border: "1px solid black",
             }}
           >
             Get Started at $0.00
           </button>
-          <button
+          <button className="second-cta-btn"
             style={{
               backgroundColor: "transparent",
               border: "1px solid black",
