@@ -54,6 +54,25 @@ const Review = () => {
           <img src={Image2}/>
           <button style={{backgroundColor:'#FFEAEF'}}>@saldsgnstudio <img src={Instagram}/></button>
         </div>
+
+        
+        <div className="review-card">
+          <p>
+            "The partner been progressing well with the business change
+            environment, talents of new skill set might be an importance area to
+            look into it plus agile process for both to excel in future."
+          </p>
+          <button style={{backgroundColor:'#53A3ED', color:'white'}}>@jaredletgo <img src={Twitter2}/></button>
+        </div>
+
+        <div className="review-card">
+          <p>
+            "The service provided is incredible, the insights and knowledge that
+            the team."
+          </p>
+          <img src={Image2}/>
+          <button style={{backgroundColor:'#FFEAEF'}}>@saldsgnstudio <img src={Instagram}/></button>
+        </div>
         
       </div>
 

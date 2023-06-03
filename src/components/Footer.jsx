@@ -7,8 +7,8 @@ import Egg from "../assets/Egg.png";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-firt-grid">
-        <div className="footie-logo">
+      <div className="footer-first-grid">
+        <div className="footer-logo">
           <img src={Egg} />
           <h3>Eggo</h3>
         </div>
