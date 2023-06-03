@@ -15,12 +15,12 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-      <Disclaimer/>
-      <Features/>
-      <Review/>
+      <Disclaimer />
+      <Features />
+      <Review />
       <div className="top-section">
-        <CTA/>
-        <Footer/>
+        <CTA />
+        <Footer />
       </div>
     </>
   );

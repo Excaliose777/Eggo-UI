@@ -1,7 +1,7 @@
 import React from "react";
-import TwitterIcon from '../assets/TwitterIcon.png'
-import LinkedinIcon from '../assets/LinkedinIcon.png'
-import InstagramIcon from '../assets/InstagramIcon.png'
+import TwitterIcon from "../assets/TwitterIcon.png";
+import LinkedinIcon from "../assets/LinkedinIcon.png";
+import InstagramIcon from "../assets/InstagramIcon.png";
 import Egg from "../assets/Egg.png";
 
 const Footer = () => {
@@ -15,9 +15,9 @@ const Footer = () => {
         <div>
           <p>123 Park Ave, Ikoyi Lagos Nigeria</p>
           <p>© Copyright 2023, All rights reserved.</p>
-          <img src={LinkedinIcon} style={{marginLeft:0}}/>
-          <img src={TwitterIcon}/>
-          <img src={InstagramIcon}/>
+          <img src={LinkedinIcon} style={{ marginLeft: 0 }} />
+          <img src={TwitterIcon} />
+          <img src={InstagramIcon} />
         </div>
       </div>
 

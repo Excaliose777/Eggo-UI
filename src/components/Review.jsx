@@ -1,9 +1,9 @@
 import React from "react";
-import Twitter from '../assets/Twitter.png'
-import Twitter2 from '../assets/Twitter2.png'
-import Instagram from '../assets/Instagram.png'
-import Image from '../assets/Image.png'
-import Image2 from '../assets/Image2.png'
+import Twitter from "../assets/Twitter.png";
+import Twitter2 from "../assets/Twitter2.png";
+import Instagram from "../assets/Instagram.png";
+import Image from "../assets/Image.png";
+import Image2 from "../assets/Image2.png";
 
 const Review = () => {
   return (
@@ -15,7 +15,6 @@ const Review = () => {
         </h1>
       </div>
 
-
       <div className="social-reviews">
         <div className="review-card">
           <p>
@@ -25,7 +24,9 @@ const Review = () => {
             work."
           </p>
 
-          <button style={{backgroundColor:'#EFF5FF'}}>@jaredletgo <img src={Twitter}/></button>
+          <button style={{ backgroundColor: "#EFF5FF" }}>
+            @jaredletgo <img src={Twitter} />
+          </button>
         </div>
 
         <div className="review-card">
@@ -33,8 +34,10 @@ const Review = () => {
             "I started using few months eggo and it&apos;s made collaboration
             with other teams so much fun"
           </p>
-          <img src={Image}/>
-          <button style={{backgroundColor:'#FFEAEF'}}>@saldsgnstudio <img src={Instagram}/></button>
+          <img src={Image} />
+          <button style={{ backgroundColor: "#FFEAEF" }}>
+            @saldsgnstudio <img src={Instagram} />
+          </button>
         </div>
 
         <div className="review-card">
@@ -43,7 +46,9 @@ const Review = () => {
             environment, talents of new skill set might be an importance area to
             look into it plus agile process for both to excel in future."
           </p>
-          <button style={{backgroundColor:'#53A3ED', color:'white'}}>@jaredletgo <img src={Twitter2}/></button>
+          <button style={{ backgroundColor: "#53A3ED", color: "white" }}>
+            @jaredletgo <img src={Twitter2} />
+          </button>
         </div>
 
         <div className="review-card">
@@ -51,18 +56,21 @@ const Review = () => {
             "The service provided is incredible, the insights and knowledge that
             the team."
           </p>
-          <img src={Image2}/>
-          <button style={{backgroundColor:'#FFEAEF'}}>@saldsgnstudio <img src={Instagram}/></button>
+          <img src={Image2} />
+          <button style={{ backgroundColor: "#FFEAEF" }}>
+            @saldsgnstudio <img src={Instagram} />
+          </button>
         </div>
 
-        
         <div className="review-card">
           <p>
             "The partner been progressing well with the business change
             environment, talents of new skill set might be an importance area to
             look into it plus agile process for both to excel in future."
           </p>
-          <button style={{backgroundColor:'#53A3ED', color:'white'}}>@jaredletgo <img src={Twitter2}/></button>
+          <button style={{ backgroundColor: "#53A3ED", color: "white" }}>
+            @jaredletgo <img src={Twitter2} />
+          </button>
         </div>
 
         <div className="review-card">
@@ -70,13 +78,12 @@ const Review = () => {
             "The service provided is incredible, the insights and knowledge that
             the team."
           </p>
-          <img src={Image2}/>
-          <button style={{backgroundColor:'#FFEAEF'}}>@saldsgnstudio <img src={Instagram}/></button>
+          <img src={Image2} />
+          <button style={{ backgroundColor: "#FFEAEF" }}>
+            @saldsgnstudio <img src={Instagram} />
+          </button>
         </div>
-        
       </div>
-
-      
     </div>
   );
 };
