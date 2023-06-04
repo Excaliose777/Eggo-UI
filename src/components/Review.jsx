@@ -5,7 +5,11 @@ import Instagram from "../assets/Instagram.png";
 import Image from "../assets/Image.png";
 import Image2 from "../assets/Image2.png";
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/all";
+
 const Review = () => {
+  gsap.registerPlugin(ScrollTrigger)
   return (
     <div className="review">
       <div className="review-header">

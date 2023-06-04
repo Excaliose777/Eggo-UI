@@ -1,12 +1,41 @@
-import React from "react";
+import React, { useLayoutEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/all";
 import Ease from "../assets/Features/Ease.png";
 import Pricing from "../assets/Features/Pricing.png";
 import Customer from "../assets/Features/CustomerSupport.png";
 import Integrations from "../assets/Features/Integrations.png";
 
 const Features = () => {
+  gsap.registerPlugin(ScrollTrigger);
+  const featuresRef = useRef(null);
+
+  useLayoutEffect(() => {
+    let ctx = gsap.context(() => {
+      gsap.from(".features-header", { x: -100, duration: 2 });
+      gsap.from(".container", {
+        scrollTrigger: {
+          trigger: ".features-container",
+          markers: true,
+          id:"scroll-test",
+          start: "top center",
+          end: "bottom bottom",
+          scrub: 2,
+          toggleActions: "restart pause reverse restart",
+        },
+        stagger:2,
+        ease:'none',
+        x: -600,
+        duration: 2,
+        delay:2,
+        opacity:0,
+      });
+    }, featuresRef);
+
+    return () => ctx.revert();
+  }, []);
   return (
-    <div className="features">
+    <div className="features" ref={featuresRef}>
       <div className="features-header">
         <h1>
           HOW EGGO <br />
