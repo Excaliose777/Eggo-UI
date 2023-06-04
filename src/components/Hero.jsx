@@ -1,11 +1,28 @@
-import React from "react";
+import React, {useLayoutEffect, useRef} from "react";
 import Lottie from "lottie-react";
 import Purple from '../assets/Lottie/Purple.json'
-import Trillo from "../assets/Trillosvg.svg";
+import { gsap } from "gsap";
 
 const Hero = () => {
+  const heroRef = useRef(null)
+  useLayoutEffect(() => {
+    let ctx = gsap.context(() =>{
+      gsap.from(".hero-main, .hero-btn, .hero-btn-img", {
+        y: 50,
+        duration: 1,
+        // opacity: 0,
+        autoAlpha:0,
+        stagger:0.3,
+        delay: 1,
+        // ease: "elastic",
+      });
+    },heroRef)
+    return () => ctx.revert();
+  },[])
+
+  
   return (
-    <>
+    <div ref={heroRef}>
       <div className="hero-main">
         <div>
           <h1>
@@ -25,7 +42,7 @@ const Hero = () => {
           <button>Get Started at $0.00</button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
