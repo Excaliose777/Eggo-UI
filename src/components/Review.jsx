@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef, useLayoutEffect} from "react";
 import Twitter from "../assets/Twitter.png";
 import Twitter2 from "../assets/Twitter2.png";
 import Instagram from "../assets/Instagram.png";
@@ -10,8 +10,30 @@ import { ScrollTrigger } from "gsap/all";
 
 const Review = () => {
   gsap.registerPlugin(ScrollTrigger)
+  const reviewRef = useRef(null)
+
+  useLayoutEffect(() => {
+    let ctx = gsap.context(() => {
+      let panels = gsap.utils.toArray(".review-card");
+      gsap.to(panels,{
+        xPercent: -100 * (panels.length - 1),
+        ease:'none',
+        scrollTrigger:{
+          trigger: reviewRef.current,
+          pin:true,
+          scrub:1,
+          // snap:1 / (panels.length - 1),
+          end: "+=3000"
+        }
+      })
+    }, reviewRef)
+
+    return () => ctx.revert()
+  },[]) 
+
+
   return (
-    <div className="review">
+    <div className="review" ref={reviewRef}>
       <div className="review-header">
         <h1>
           IN JUST 1 YEAR OF GOING <br /> LIVE, SEE WHAT USERS <br />

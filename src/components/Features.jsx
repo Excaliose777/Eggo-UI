@@ -17,18 +17,18 @@ const Features = () => {
         scrollTrigger: {
           trigger: ".features-container",
           // markers: true,
-          id:"scroll-test",
-          start: "top center",
+          id: "scroll-test",
+          start: "-200px center",
           end: "bottom bottom",
           scrub: 2,
           toggleActions: "restart pause reverse restart",
         },
-        stagger:2,
-        ease:'none',
+        stagger: 2,
+        ease: "none",
         x: -600,
         duration: 2,
-        delay:2,
-        opacity:0,
+        delay: 2,
+        opacity: 0,
       });
     }, featuresRef);
 
