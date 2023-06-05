@@ -22,8 +22,7 @@ const Review = () => {
         scrollTrigger:{
           trigger: reviewRef.current,
           pin:true,
-          scrub:1,
-          markers:true,
+          scrub:0.1,
           // snap:1 / (panels.length - 1),
           end: "+=3000"
         }
