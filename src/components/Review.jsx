@@ -17,12 +17,13 @@ const Review = () => {
     let ctx = gsap.context(() => {
       // let panels = gsap.utils.toArray(".review-card");
       gsap.to('.review-card',{
-        x: -500,
+        xPercent: -500,
         ease:'none',
         scrollTrigger:{
           trigger: reviewRef.current,
           pin:true,
           scrub:1,
+          markers:true,
           // snap:1 / (panels.length - 1),
           end: "+=3000"
         }

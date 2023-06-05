@@ -296,7 +296,7 @@ body {
   width: 100%;
   /* gap: 24px; */
   /* flex-wrap: nowrap; */
-  /* overflow: hidden; */
+  overflow: hidden;
 
   /* display: inline-block; */
   /* animation: scroll 10s infinite linear; */
@@ -608,7 +608,7 @@ body {
   }
 
   .review-header h1 {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 54px;
     margin-bottom: 80px;
   }
@@ -770,8 +770,8 @@ body {
   }
 
   .review-header h1 {
-    font-size: 45px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
     margin-bottom: 80px;
   }
 

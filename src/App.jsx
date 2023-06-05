@@ -7,12 +7,12 @@ import Features from "./components/Features";
 import Review from "./components/Review";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import Preloader from "./components/Preloader";
 
 function App() {
-
-  
   return (
     <>
+      <Preloader />
       <div className="top-section">
         <Navbar />
         <Hero />
