@@ -16,7 +16,6 @@ const Features = () => {
       gsap.from(".container", {
         scrollTrigger: {
           trigger: ".features-container",
-          // markers: true,
           id: "scroll-test",
           start: "-200px center",
           end: "bottom bottom",

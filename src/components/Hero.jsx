@@ -17,6 +17,7 @@ const Hero = () => {
         // ease: "elastic",
       });
     },heroRef)
+    
     return () => ctx.revert();
   },[])
 

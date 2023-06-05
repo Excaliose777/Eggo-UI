@@ -11,12 +11,13 @@ import { ScrollTrigger } from "gsap/all";
 const Review = () => {
   gsap.registerPlugin(ScrollTrigger)
   const reviewRef = useRef(null)
+  
 
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
-      let panels = gsap.utils.toArray(".review-card");
-      gsap.to(panels,{
-        xPercent: -100 * (panels.length - 1),
+      // let panels = gsap.utils.toArray(".review-card");
+      gsap.to('.review-card',{
+        x: -500,
         ease:'none',
         scrollTrigger:{
           trigger: reviewRef.current,
